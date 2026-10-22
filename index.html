@@ -23,6 +23,7 @@ try {
         exit;
     }
 
+    // Save user to database
     if ($user->create($name, $email)) {
         echo "User created successfully!\n";
     }
